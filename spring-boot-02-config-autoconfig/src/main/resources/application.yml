@@ -1,0 +1,12 @@
+spring:
+  thymeleaf:
+    suffix: .html
+    #禁用缓存
+    cache: false
+  messages:
+    basename: i18n.login
+  mvc:
+    date-format: yyyy/MM/dd
+#server:
+#  servlet:
+#    context-path: /crud
